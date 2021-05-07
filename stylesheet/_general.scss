@@ -1,0 +1,68 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.4;
+}
+.container{
+    max-width:1600px;
+    width:100%;
+    margin:0 auto;
+    padding:0 2rem;
+    border:2px solid green;
+}
+
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.flex-box{
+    display: flex;
+}
+
+.flex-30{
+    flex:0 1 30%;
+}
+.flex-40{
+    flex:0 1 40%;
+}
+.flex-45{
+    flex:0 1 45%;
+}
+.flex-60{
+    flex:0 1 60%;
+}
+.align-self-center{
+    align-self: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.text-align-center{
+    text-align: center;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
+.padding-2{
+    padding:2rem 0;
+}
+@mixin btn($bg-color,$color,$border) {
+    padding:1.5rem 1.5rem;
+    background-color:$bg-color;
+    color:$color;
+    border-radius:1rem;
+    border:$border;
+    font: {
+        size:1.2rem;
+        font-weight: 500;
+    }
+    &:focus{
+        border:none;
+    }
+}

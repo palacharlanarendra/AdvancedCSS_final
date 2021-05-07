@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet/style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">   
+    <title>Blankos</title>
+    <script src="https://kit.fontawesome.com/2bbf3cce3b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <section class="nav-bar">
+            <div class="container flex-box ">
+                <div class="brand">
+                    <a>
+                        <img src="./assets/blankos_logo.png" alt="Blankos Logo"/>
+                    </a>
+                </div>
+                <label class="bars" for="toggle">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <input id="toggle" type="checkbox">
+                <nav class="nav">
+                    <ul class="flex-box flex-direction-col-small justify-content-center align-items-center">
+                        <li class="active-btn">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./creator.html">Creator Crew</a>
+                        </li>
+                        <li class="dropdown-box">
+                            <a href="#">
+                                Community
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.facebook.com/playblankos/">Join the FB</a></li>
+                                <li><a href="https://www.reddit.com/r/PlayBlankos/">Blankos Subreddit</a></li>
+                                <li><a href="https://twitter.com/PlayBlankos">Twitter</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="slideshow-container">
+                <article class="mySlides fade slide-1">
+                    <figure>
+                        <img src="./assets/hero-image-1.jpg" style="width:100%">
+                        <div class="container flex">
+                            <article class="flex-30 align-self-center">
+                                <h2>NOW IN OPEN BETA FOR PC</h2>
+                                <p>Open Beta is now live and you can play for free! Create an account and start playing right away.</p>
+                                <button class="btn-1">view the shop</button>
+                            </article>
+                            <div class="avatar flex-60">
+                                <img src="./assets/avatar-hero-image-1.webp" alt="avatar"/>
+                            </div>
+                        </div>
+                    </figure>         
+                </article>
+                <article class="mySlides fade">
+                    <figure>
+                        <img src="./assets/hero-image-2.webp" style="width:100%">
+                        <div class="container flex justify-content-center ">
+                            <article class="hero-article-2 flex-45 align-self-center text-align-center">
+                                <h2>WEBSTORE OPEN NOW!</h2>
+                                <p>Buying Blankos has never been easier! Buy Blankos and Accessories NFTs with USD or Crypto.</p>
+                                <button class="btn-1">play for free</button>
+                            </article>
+                        </div>
+                    </figure>
+                </article>
+                <article class="mySlides fade slide-3">
+                    <figure>
+                        <img src="./assets/hero-image-3.webp" style="width:100%">
+                        <div class="container flex">
+                            <div class="container flex align-items-center">
+                                <article class="flex-40">
+                                    <h2>STREET CRED</h2>
+                                    <p>Can't wait to join the nft? You're not alone! See what press are saying after getting an exclusive early look at Blankos Block games.</p>
+                                    <button class="btn-1">play for free</button>
+                                </article>
+                            </div>
+                        </div>
+                    </figure>
+                </article>
+                <!-- The dots/circles -->
+                <div class="three-dots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </section>
+        <section class="video-section">
+            <div class="container padding-2">
+                <article class="video-article flex-box justify-content-center flex-direction-column align-items-center">
+                    <h2>
+                        TAKE PRIDE IN OWNERSHIP
+                    </h2>
+                    <h3>Good times, good vibes - you make the rules.</h3>
+                    <iframe src="https://www.youtube.com/embed/juwIwjCRxGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </article>
+            </div>
+        </section>
+        <section class="party-section">
+            <figure>
+                <img src="./assets/banner_play_peanut.webp" style="width:100%">
+                <div class="container flex">
+                    <div class="billy-one">
+                        <img src="./assets/billy_one.webp"/>
+                    </div>
+                    <article class="party-article flex-30">
+                        <h2>PARTY UP</h2>
+                        <p>Play Blankos your way. Go on solo quests and unlock new rewards to trick out your Blankos, or grab a squad and compete in epic block parties. Available right now on Windows 10 for free.</p>
+                        <button class="btn-2">play for free</button>
+                    </article>
+                </div>
+            </figure>
+        </section>
+        <section class="common-section">
+            <figure>
+                <img src="./assets/banner_collect.webp" style="width:100%">
+                <div class="container flex-box  justify-content-center align-items-center">
+                    <article class="common-article">
+                        <h2>BUY. SELL. COLLECT.</h2>
+                        <p>The things you earn and buy in Blankos are yours to own. That's right - each Blanko is an NFT which means that they hold value and can be sold and bought on our marketplace. Stay tuned for news about the release of our marketplace during the Beta!</p>
+                    </article>
+                </div>
+            </figure>
+        </section>
+        <section class="games-section">
+            <figure>
+                <img src="./assets/banner_build.webp" style="width:100%">
+                <div class="container padding-2">
+                    <div class="peanut">
+                        <img src="./assets/peanut.png" alt="peanut"/>
+                    </div>
+                    <article class="games-article">
+                        <h2>MAKE YOUR OWN GAMES</h2>
+                        <p>Easily design and build all sorts of party games for everyone to enjoy, no coding required. All that's needed is a bit of creativity.</p>
+                        <button class="btn-2">check it out</button>
+                    </article>
+                </div>
+            </figure>
+        </section>
+        <section class="common-section">
+            <figure>
+                <img src="./assets/banner_connect.webp" style="width:100%">
+                <div class="container flex-box  justify-content-center align-items-center">
+                    <article class="common-article">
+                        <h2>ICONIC DESIGNS</h2>
+                        <p>We've partnered with some of the world's most talented artists, designers, and creators for limited releases found only here. If you'd like to work with us for future designs, we'd love to hear from you.</p>
+                        <button class="btn-2">check it out</button>
+                    </article>
+                </div>
+            </figure>
+        </section>
+        <section class="keep-in-touch-section">
+            <figure>
+                <img src="./assets/Moonlit Asteroid.jpg" style="width:100%">
+                <div class="container flex-box  justify-content-center align-items-center">
+                    <div class="billy-lean">
+                        <img src="./assets/billy_lean.webp" alt="peanut"/>
+                    </div>
+                    <article class="common-article">
+                        <h2>KEEP IN TOUCH</h2>
+                        <p>Get the inside scoop on all the new news, big announcements, and Blankos exclusives.</p>
+                        <div class="logo-group">
+                            <span>
+                                <a><i class="fab fa-discord"></i></a>
+                            </span>
+                            <span>
+                                <a><i class="fab fa-reddit-alien"></i></a>
+                            </span>
+                            <span>
+                                <a><i class="fab fa-twitter"></i></a>
+                            </span>
+                            <span>
+                                <a><i class="fab fa-facebook-square"></i></a>
+                            </span>
+                            <span>
+                                <a><i class="fab fa-instagram"></i></a>
+                            </span>
+                            <span>
+                                <a><i class="fab fa-youtube"></i></a>
+                            </span>
+                        </div>
+                    </article>
+                </div>
+            </figure>
+        </section>
+    </main>
+    <footer class="footer-section">
+        <div class="container">
+            <article class="commonflex flex">
+                <address>
+                    <ul>
+                        <li><a class="white-active">Reach us</a></li>
+                        <li>
+                            <a>
+                            <i class="fab fa-telegram-plane"></i>
+                            #123, Manhatt 7 Avenu, NYC
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="fas fa-phone"></i>
+                                +1-1234-567-987
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@yourdomain.com">
+                                <i class="fas fa-envelope"></i>
+                                info@yourdomain.com
+                            </a>
+                        </li>
+                    </ul>
+                </address>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a class="white-active">Site links</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Pricing</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a class="white-active">Quick links</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                        <li><a>Privacy Policy</a></li>
+                        <li><a>Terms & Conditions</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-nav">
+                    <ul>
+                        <li class="white-active">Follow us</li>
+                        <section class="icons flex-box align-items-center ">
+                            <li>
+                                <a href="https://www.fb.com">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.vectorstock.com">
+                                    <i class="fas fa-globe"></i>
+                                </a>
+                            </li>
+                        </section>
+                    </ul>
+                </nav>
+            </article>
+            <div class="last-heading boxflex">
+                <div class="bootstrap-para">
+                    <a class="white-active">Bootstrap Theme</a>
+                    by webThemez.
+                </div>  
+                <small >&copy; All Rights Reserved</small>
+            </div>
+           
+        </div>
+
+    </footer>
+    <script src="./script/script.js"></script>
+    
+</body>
+</html>
