@@ -10,7 +10,7 @@
     <title>Blankos</title>
     <script src="https://kit.fontawesome.com/2bbf3cce3b.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="creator-body">
     <header class="header">
         <section class="nav-bar">
             <div class="container flex-box ">
@@ -24,7 +24,7 @@
                 </label>
                 <input id="toggle" type="checkbox">
                 <nav class="nav">
-                    <ul class="flex-box flex-direction-col-small justify-content-center align-items-center">
+                    <ul class="flex-box flex-direction-col-small justify-content-center align-items-center padding-top-15">
                         <li class="active-btn">
                             <a href="./index.html">Home</a>
                         </li>
@@ -38,7 +38,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="https://www.facebook.com/playblankos/">Join the FB</a></li>
-                                <li><a href="https://www.reddit.com/r/PlayBlankos/">Blankos Subreddit</a></li>
+                                <li><a href="https://www.reddit.com/r/PlayBlankos/">Subreddit</a></li>
                                 <li><a href="https://twitter.com/PlayBlankos">Twitter</a></li>
                             </ul>
                         </li>
@@ -74,7 +74,18 @@
                 </div>
             </figure>
         </section>
-       
+        
+        <section class="common-section">
+            <figure>
+                <img src="./assets/banner_collect.webp" style="width:100%">
+                <div class="container flex-box  justify-content-center align-items-center">
+                    <article class="common-article ">
+                        <h2>WHY JOIN?</h2>
+                        <p>By joining the Blankos Creator Crew, we'll be supporting your content creation with fan kits, social asset packs, and opportunities to grow your following with us.</p>
+                    </article>
+                </div>
+            </figure>
+        </section>
     </main>
     <footer class="footer-section">
         <div class="container">
@@ -160,7 +171,12 @@
         </div>
 
     </footer>
+    <script src="./script/scroll-out.js"></script>
     <script src="./script/script.js"></script>
-    
+    <script>
+        ScrollOut({
+            targets:"h2,p"
+        });
+    </script>
 </body>
 </html>
